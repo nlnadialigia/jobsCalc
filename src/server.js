@@ -1,13 +1,10 @@
-import express from "express";
-import path from "path";
+/* eslint-disable import/extensions */
+import express from 'express';
+import routes from './routes.js';
 
 const server = express();
-const __dirname = path.resolve(path.dirname(""));
 
-server.use(express.static("public"));
+server.use(express.static('public'));
+server.use(routes);
 
-server.get("/", (request, response) => {
-  return response.sendFile(`${__dirname}/views/index.html`);
-});
-
-server.listen(5010, () => console.log("Server is running!"));
+server.listen(5010, () => console.log('Server is running!'));

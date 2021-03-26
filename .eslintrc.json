@@ -5,7 +5,7 @@
     },
     "extends": [
         "airbnb-base",
-        "plugin:prettier/recommended"
+        "eslint:recommended"
     ],
     "plugins": [
       "prettier"
@@ -15,8 +15,16 @@
         "sourceType": "module"
     },
     "rules": {
-      "prettier/prettier": "error",
       "no-underscore-dangle": "off",
-      "no-console": "off"
+      "no-console": "off",
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"],
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never"
+        }
+      ]
     }
 }
