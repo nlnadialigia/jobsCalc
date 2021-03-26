@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
+  <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="100%" />
 </h1>
 
 
@@ -12,8 +12,6 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=ef8d32"/>
   </a>
 </h1>
-<br>
-
 <br>
 
 # ℹ️ Índice
@@ -49,10 +47,10 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 # 📚 Aulas
 
-[### 📙 Aula 01 - Construindo o Motor da Nave](./aula01)
-<!-- [### 📙 Aula 02 - Novas Peças para o motor](./aula02)
-[### 📙 Aula 03 - A caixa preta da nave](./aula03)
-[### 📙 Aula 04 - Abrindo a caixa preta](./aula04) -->
+[📙 Aula 01 - Construindo o Motor da Nave](./aula01)
+<!-- [📙 Aula 02 - Novas Peças para o motor](./aula02)
+[📙 Aula 03 - A caixa preta da nave](./aula03)
+[📙 Aula 04 - Abrindo a caixa preta](./aula04) -->
 
 <br>
 
@@ -64,8 +62,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [NodeJS](https://nodejs.org/en/)
-<!-- - [EJS]() -->
 - [Express](https://expressjs.com/)
+<!-- - [EJS]() -->
 <!-- - [SQLite]() -->
 
 

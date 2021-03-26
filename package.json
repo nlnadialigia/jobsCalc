@@ -1,0 +1,16 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "git-commit-msg": "^0.3.0"
+  }
+}
