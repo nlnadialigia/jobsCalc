@@ -1,13 +1,13 @@
-import express from 'express';
-import path from 'path';
+import express from "express";
+import path from "path";
 
-const server = express()
-const __dirname = path.resolve(path.dirname('')); 
+const server = express();
+const __dirname = path.resolve(path.dirname(""));
 
-server.use(express.static('public'))
+server.use(express.static("public"));
 
-server.get('/', (request, response) => {
-  return response.sendFile(`${__dirname}/views/index.html`)
-})
+server.get("/", (request, response) => {
+  return response.sendFile(`${__dirname}/views/index.html`);
+});
 
-server.listen(5010, () => console.log('Server is running!'))
+server.listen(5010, () => console.log("Server is running!"));
