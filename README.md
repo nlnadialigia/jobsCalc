@@ -62,8 +62,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [NodeJS](https://nodejs.org/en/)
+- [EJS](https://www.npmjs.com/package/ejs)
 - [Express](https://expressjs.com/)
-<!-- - [EJS]() -->
 <!-- - [SQLite]() -->
 
 
