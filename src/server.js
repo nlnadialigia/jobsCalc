@@ -6,8 +6,9 @@ const server = express();
 const __dirname = path.resolve(path.dirname(''));
 
 server.set('views', `${__dirname}/views`);
-server.set('view entine', 'ejs');
+server.set('view engine', 'ejs');
 server.use(express.static('public'));
+server.use(express.urlencoded({ extended: true }));
 server.use(routes);
 
 server.listen(5010, () => console.log('Server is running!'));
