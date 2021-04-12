@@ -12,10 +12,15 @@ const profile = {
   'vacation-per-year': 4,
 };
 
+const jobs = [];
+
 routes.get('/', (request, response) => response.render('index.ejs', { profile }));
 routes.get('/job', (request, response) => response.render('job.ejs'));
 routes.post('/job', (request, response) => {
-  console.log(request.body);
+  // { name: 'asdfg', 'daily-hours': '3', 'total-hours': '3' }
+  jobs.push(request.body);
+
+  return response.redirect('/');
 });
 routes.get('/job/edit', (request, response) => response.render('job-edit.ejs'));
 routes.get('/profile', (request, response) => response.render('profile.ejs', { profile }));
